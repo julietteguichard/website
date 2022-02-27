@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("components/photo.css");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body{font-family: 'Lato'; 
+background-color: white;}
+
+h3,h4, {font-family: 'Lato', sans-serif; font-size: 40px;}
+h2{font-family: 'Roboto';font-weight: 60px;}
+h1{font-family: 'Roboto'; font-size: 40px;}
+
+
+.btn{background-color:#3C5E60;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 40px;
+	text-decoration: none;}
+
+.btn:hover{background: #739294; 
+	text-decoration: underline;}`
+
+.follow {list-style: none;}
+.follow li{display: inline-block;
+				padding: 10px;}
+.follow i{font-size: 40px; background-color: #739294;
+				color: white;
+				padding: 15px 20px;
+				border-radius: 40px;}
+.followus{margin-left: 400px;}
+.listinline{margin-left: 325px;}
+
+.list-inline i:hover{box-shadow: 5px 3px 5px #739294;
+					color: #739294}
+
+a {text-decoration: none; color: rgb(80, 80, 80);} 
+a:hover{color:#3C5E60;} ;
+
+.list1 {list-style: none; padding-left: 0px;}
+.list1 li {display: inline-block; padding: 12px;} 
+.list1{display: flex;
+	align-items: center;
+	justify-content: space-between;}
+
+.phrase {width: 700px; font-family: 'Noto Sans', sans-serif; font-weight: 900px;}
+
+.list2 {list-style: none; padding-left: 0px;}
+.list2 li {display: inline-block; padding: 12px;} 
+
+
+#phrase2 {width:  120px}
+#phrase3 {width:  120px}
+#phrase4 {width:  120px}
+
+
+.boutton{background-color: #3C5E60 ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 40px;}
+
+.underbanner{text-align: justify;
+margin-left: 200px;
+margin-right: 200px;
+align-items: center;}
+
+
+.image2{align-items: center;}
+
+
+.ensavoirplus{display: flex; text-align: center; margin-left: 400px;}
+
+.cards {display: flex;
+		flex-wrap: wrap;}
+
+.card {padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	font-size: 25px;
+	box-shadow: 0px 3px 5px #3C5E60;
+	border-radius: 6px;
+	margin: 10px;
+	flex-basis: 250px;
+	flex-grow: 1;}
+
+
+.cities{display: inline-flex;
+	width: 0px;
+justify-content: space-between;
+text-align: justify;
+padding: 0px;
+list-style: none;
+align-items: center;}
+
+h3 {text-decoration: underline;}
+
+
+
+
+
